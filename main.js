@@ -11,7 +11,7 @@ const sintomas = require('./endpoints/sintomas.js')
 const diagnosticos = require('./endpoints/diagnosticos.js')
 
 app.get('/', (req, res, next) => {
-  res.send('qhubo socio')
+  res.send('hola socio')
 })
 
 app.get('/razas',(req,res)=>{
